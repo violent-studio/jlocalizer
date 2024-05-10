@@ -18,6 +18,13 @@ public class Localization {
     }
 
     /**
+     * Is pack loaded successfully.
+     */
+    public boolean isLoaded() {
+        return locPack.isLoaded();
+    }
+
+    /**
      * Set language by default.
      */
     public void setDefaultLanguage(String defaultLanguage_) {
